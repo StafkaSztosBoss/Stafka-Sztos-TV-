@@ -34,9 +34,9 @@ jobs:
           - zh-tw
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           repository: mdn/content
           path: mdn/content
